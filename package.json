@@ -21,6 +21,10 @@
     "dev": "nodemon src/index.ts",
     "build": "tsc",
     "start": "node build/index.js",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "tsc"
+  },
+  "engines": {
+    "node": "12.16.3"
   }
 }
